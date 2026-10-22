@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-alert: var(--alert);
+  --color-critical: var(--critical);
+  --color-line: var(--line);
+
+  --font-heading: "Source Serif 4", serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+}
+
+:root {
+  --bg: #F5F6F4;
+  --surface: #FFFFFF;
+  --ink: #1C2422;
+  --primary: #173C3E;
+  --secondary: #5C7A6B;
+  --alert: #B4622A;
+  --critical: #8C2F2F;
+  --line: #D8DBD6;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  color: var(--ink);
+}

@@ -1,0 +1,11 @@
+Flask
+flask-cors
+supabase
+pydantic
+email-validator
+python-dotenv
+gunicorn
+requests
+transformers==4.46.3
+torch
+safetensors
